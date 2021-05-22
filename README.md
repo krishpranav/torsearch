@@ -7,6 +7,8 @@ A simple python web server which allows you to scrap query cached onion sites, i
 ```
 git clone https://github.com/krishpranav/torsearch
 cd torsearch
+python -m venv env
+source env/bin/activate
 python -m pip install -r requirements.txt
 python torsearch_server.py
 ```
